@@ -29,6 +29,13 @@ img {
     border-top-right-radius: 95px;
 }
 
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 /************************************
 *********** INNER PART **************
 ************************************/
@@ -73,6 +80,7 @@ img {
     width: 300px;
     border: 1px solid gray;
     float: left;
+    transition: transform 400ms;
 }
 
 .cardsimpl:hover {
