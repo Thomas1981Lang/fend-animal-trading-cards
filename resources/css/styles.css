@@ -1,0 +1,83 @@
+/************************************
+*************** BASIC ***************
+************************************/
+
+body {
+    background-color: #C2CFE4;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: 'Berkshire Swash', cursive;
+    padding: 12px 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0 0;
+    list-style: none;
+}
+
+li span {
+    font-weight: bold;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 95px;
+}
+
+/************************************
+*********** INNER PART **************
+************************************/
+
+.info {
+    border: 1px solid gray;
+    padding: 0 10px 0 10px;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.interesting {
+    font-style: italic;
+}
+
+
+/************************************
+****** Card with Border inside ******
+************************************/
+
+.cardspecial {
+    background-color: white;
+    margin: 50px 30px;
+    padding: 0px 20px 20px 20px;
+    width: 300px;
+    border: 1px solid gray;
+    outline: 10px solid white;
+    box-shadow: 20px 20px 10px 7px rgba(166, 166, 166, 1);
+    float: left;
+}
+
+
+/************************************
+****** Card only with shadow ******
+************************************/
+
+.cardsimpl {
+    background-color: white;
+    margin: 50px 30px;
+    padding: 0 20px 20px 20px;
+    width: 300px;
+    border: 1px solid gray;
+    float: left;
+}
+
+.cardsimpl:hover {
+    box-shadow: 8px 8px 5px 0 gray;
+    transform: translateX(-3px);
+}
+
+
